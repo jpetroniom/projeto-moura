@@ -18,11 +18,12 @@ Uma campanha pra ajudar o Mestre Ednaldo Moura ("Seu Moura") — Faixa Preta 4º
 
 ## Status atual
 
-- Site no ar, conteúdo completo (história, trajetória, títulos, galeria, missão, orçamento, Círculo de Apoio).
+- Site no ar, conteúdo completo (história, trajetória, títulos, galeria com 13 fotos/vídeos do Instagram, missão, orçamento, Círculo de Apoio, visão de futuro/Instituto).
 - **Primeiro apoiador confirmado: JPX Digital Tecnologia Ltda.**
 - 30 empresas-alvo mapeadas (`materiais/empresas.csv`), nenhuma contatada ainda (exceto JPX Digital).
 - Media Kit, roteiro de vídeo, Kit WhatsApp, apresentação de slides — todos prontos.
 - Vídeo final (edição) e abordagem às empresas: **ainda não iniciados**, aguardando o Seu Moura topar a ideia.
+- **Pronto pra mostrar ao Seu Moura.** Esse é o estado em que a página deve ser usada pra validação com ele.
 
 ## URLs ao vivo
 
