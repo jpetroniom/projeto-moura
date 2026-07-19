@@ -4,5 +4,9 @@
   "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "directory": "."
-  }
+  },
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "seumoura.jpxdigital.com.br", "custom_domain": true }
+  ]
 }
