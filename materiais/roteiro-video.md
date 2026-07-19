@@ -2,9 +2,11 @@
 
 Feito com celular. Sem drone, sem cinegrafista. O objetivo é autenticidade, não produção.
 
-## O que gravar (banco de imagens)
+**Atualização:** já existe bastante material pronto no Instagram dele (@seumourabijj, +21.8k seguidores, +6.140 publicações) — treinos, medalhas, aulas Kids provavelmente já estão postados. Antes de gravar qualquer coisa nova, vale garimpar esse acervo primeiro; é mais rápido e já é conteúdo real dele, não uma encenação pra câmera. Baixe os vídeos/fotos que servem (repost ou salvamento direto do post) e só complemente com gravação nova o que estiver faltando.
 
-Grave tudo isso solto, em qualquer ordem — depois a gente monta na edição:
+## O que gravar (ou garimpar do Instagram) — banco de imagens
+
+Busque isso no acervo, e só grave o que não encontrar:
 
 1. **Treino** — Seu Moura no tatame, rolando com alunos, aplicando alguma finalização ou passagem de guarda. 15-20s de sobra.
 2. **Medalhas** — plano fechado nas medalhas (a foto que já temos ajuda, mas vídeo dá mais vida — pode ser ele mexendo nelas, colocando no pescoço).

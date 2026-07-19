@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apresentação — Projeto Legado Mestre Moura</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  .bg-marinho { background-color: #0f2a4a; }
+  .text-ouro { color: #d69e2e; }
+  .border-ouro { border-color: #d69e2e; }
+  .slide {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6vw;
+    box-sizing: border-box;
+    page-break-after: always;
+  }
+  @media print {
+    .slide { height: 100vh; }
+    .no-print { display: none; }
+  }
+</style>
+</head>
+<body class="font-sans text-slate-800">
+
+<div class="no-print fixed top-2 right-2 text-xs text-slate-400 bg-white/80 px-2 py-1 rounded">
+  Scroll pra navegar · Ctrl+P pra exportar em PDF
+</div>
+
+<!-- SLIDE 1 -->
+<div class="slide bg-marinho text-white items-center text-center">
+  <img src="../img/logo.jpg" class="w-20 h-20 rounded-full mx-auto mb-6 bg-white p-1">
+  <h1 class="text-5xl font-extrabold mb-4">Projeto Legado Mestre Moura</h1>
+  <p class="text-ouro text-xl uppercase tracking-widest">A Missão Rio de Janeiro — Dezembro 2026</p>
+</div>
+
+<!-- SLIDE 2 -->
+<div class="slide items-center text-center">
+  <p class="text-4xl italic text-marinho font-semibold max-w-3xl mx-auto">"Acredite no seu potencial que mais tarde você será um criador de riquezas."</p>
+  <p class="text-ouro font-bold text-xl mt-6">— Mestre Ednaldo Moura</p>
+</div>
+
+<!-- SLIDE 3 -->
+<div class="slide">
+  <h2 class="text-3xl font-bold text-marinho mb-8 border-b-4 border-ouro pb-3 w-fit">Quem é Ednaldo Moura</h2>
+  <ul class="text-2xl space-y-4 list-disc list-inside">
+    <li>Capoeira dos 14 aos 20 anos</li>
+    <li>Corredor: São Silvestre e Prova Tiradentes (5-6x)</li>
+    <li>Começou o Jiu-Jitsu aos 52 anos</li>
+  </ul>
+</div>
+
+<!-- SLIDE 4 -->
+<div class="slide bg-marinho text-white">
+  <h2 class="text-3xl font-bold text-ouro mb-8">A Autoridade do Mestre</h2>
+  <ul class="text-2xl space-y-4 list-disc list-inside">
+    <li>Faixa Preta 4º Grau</li>
+    <li>14+ anos de faixa preta exigidos pra esse grau</li>
+    <li>Reconhecido entre os praticantes de mais alto nível do país</li>
+  </ul>
+</div>
+
+<!-- SLIDE 5 -->
+<div class="slide">
+  <h2 class="text-3xl font-bold text-marinho mb-8 border-b-4 border-ouro pb-3 w-fit">A Chancela Oficial</h2>
+  <ul class="text-2xl space-y-4 list-disc list-inside">
+    <li>Comenda da Comunidade — Câmara Municipal de Maringá</li>
+    <li>Brasão da Cidade</li>
+    <li>Reconhecimento público oficial, não só esportivo</li>
+  </ul>
+</div>
+
+<!-- SLIDE 6 -->
+<div class="slide bg-marinho text-white">
+  <h2 class="text-3xl font-bold text-ouro mb-10">O Alcance</h2>
+  <div class="grid grid-cols-3 gap-8 text-center">
+    <div><p class="text-5xl font-extrabold text-ouro">21.8k</p><p class="mt-2">Seguidores Instagram</p></div>
+    <div><p class="text-5xl font-extrabold text-ouro">2x</p><p class="mt-2">Aulas Kids / semana</p></div>
+    <div><p class="text-5xl font-extrabold text-ouro">100%</p><p class="mt-2">Audiência local e real</p></div>
+  </div>
+</div>
+
+<!-- SLIDE 7 -->
+<div class="slide items-center text-center">
+  <h2 class="text-3xl font-bold text-marinho mb-6">A Missão</h2>
+  <p class="text-2xl max-w-2xl">Campeonato Master do Rio de Janeiro — dezembro 2026</p>
+  <p class="text-xl italic text-ouro mt-6 max-w-2xl">"Uma lenda viva do nosso esporte não pode parar por falta de apoio."</p>
+</div>
+
+<!-- SLIDE 8 -->
+<div class="slide">
+  <h2 class="text-3xl font-bold text-marinho mb-8 border-b-4 border-ouro pb-3 w-fit">O Orçamento</h2>
+  <table class="w-full text-2xl">
+    <tbody class="divide-y divide-slate-200">
+      <tr><td class="py-2">Inscrição</td><td class="py-2 text-right">R$ 500</td></tr>
+      <tr><td class="py-2">Passagem</td><td class="py-2 text-right">R$ 2.200</td></tr>
+      <tr><td class="py-2">Hospedagem</td><td class="py-2 text-right">R$ 1.500</td></tr>
+      <tr><td class="py-2">Alimentação</td><td class="py-2 text-right">R$ 1.000</td></tr>
+      <tr><td class="py-2">Transporte</td><td class="py-2 text-right">R$ 800</td></tr>
+    </tbody>
+    <tfoot><tr class="border-t-4 border-ouro font-bold text-marinho"><td class="py-4">Total</td><td class="py-4 text-right">R$ 6.000</td></tr></tfoot>
+  </table>
+</div>
+
+<!-- SLIDE 9 -->
+<div class="slide bg-marinho text-white">
+  <h2 class="text-3xl font-bold text-ouro mb-8">Círculo de Apoio</h2>
+  <ul class="text-2xl space-y-4 list-disc list-inside">
+    <li>Contribuição pessoal de R$ 400</li>
+    <li>Sem burocracia, sem contrato — por enquanto</li>
+    <li>Nome no kimono + presença no site + reconhecimento público</li>
+  </ul>
+</div>
+
+<!-- SLIDE 10 -->
+<div class="slide items-center text-center">
+  <h2 class="text-3xl font-bold text-marinho mb-6">Como Participar</h2>
+  <p class="text-xl mb-2">É surpresa — discrição até dezembro</p>
+  <p class="text-2xl font-bold text-ouro mt-4">WhatsApp: (44) 99847-6505</p>
+  <p class="text-xl mt-2">seumoura.jpxdigital.com.br</p>
+</div>
+
+</body>
+</html>

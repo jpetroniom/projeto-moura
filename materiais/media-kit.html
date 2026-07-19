@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Media Kit — Projeto Legado Mestre Moura</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  .bg-marinho { background-color: #0f2a4a; }
+  .text-ouro { color: #d69e2e; }
+  .bg-ouro { background-color: #d69e2e; }
+  .border-ouro { border-color: #d69e2e; }
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto 24px auto;
+    padding: 20mm;
+    box-sizing: border-box;
+    page-break-after: always;
+  }
+  @media print {
+    body { background: white; }
+    .page { margin: 0; box-shadow: none; }
+    .no-print { display: none; }
+  }
+  @media screen {
+    body { background: #e2e8f0; }
+    .page { background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.15); }
+  }
+</style>
+</head>
+<body class="font-sans text-slate-800">
+
+<div class="no-print text-center py-4 text-sm text-slate-600">
+  Pré-visualização — use Ctrl+P (ou Cmd+P) e "Salvar como PDF" pra exportar.
+</div>
+
+<!-- PÁGINA 1: CAPA -->
+<div class="page bg-marinho text-white flex flex-col items-center justify-center text-center">
+  <img src="../img/logo.jpg" alt="Seu Moura BJJ" class="w-28 h-28 rounded-full mb-8 bg-white p-1">
+  <span class="text-ouro uppercase tracking-widest text-sm font-bold mb-4">A Missão Rio de Janeiro — Dezembro 2026</span>
+  <h1 class="text-5xl font-extrabold tracking-tight mb-6">PROJETO LEGADO<br>MESTRE MOURA</h1>
+  <img src="../img/seumoura-medalhas.jpg" alt="Seu Moura com suas medalhas" class="w-64 h-64 rounded-full object-cover border-4 border-ouro shadow-xl mt-6">
+</div>
+
+<!-- PÁGINA 2: MANIFESTO -->
+<div class="page flex flex-col items-center justify-center text-center">
+  <p class="text-3xl italic text-marinho font-semibold max-w-xl mb-8 leading-snug">
+    "Acredite no seu potencial que mais tarde você será um criador de riquezas."
+  </p>
+  <p class="text-ouro font-bold mb-12">— Mestre Ednaldo Moura ("Seu Moura")</p>
+  <div class="max-w-xl space-y-4 text-lg text-slate-600 leading-relaxed text-left">
+    <p>Essa frase não é apenas um lema. É a realidade gravada na pele, no asfalto e no tatame por um homem que desafiou o tempo.</p>
+    <p>A verdadeira riqueza não se mede em contas bancárias, mas no tamanho do legado que deixamos na vida das pessoas.</p>
+    <p>Este projeto nasce de uma missão única: garantir que a falta de recursos financeiros não interrompa a jornada de uma lenda viva do nosso esporte.</p>
+  </div>
+</div>
+
+<!-- PÁGINA 3: QUEM É -->
+<div class="page">
+  <h2 class="text-3xl font-bold text-marinho mb-8 border-b-4 border-ouro pb-3">Quem é Ednaldo Moura?</h2>
+  <div class="grid grid-cols-2 gap-8 items-center">
+    <img src="../img/seumoura-medalhas.jpg" alt="Seu Moura" class="rounded-xl shadow-lg w-full object-cover">
+    <div class="space-y-4 text-lg leading-relaxed">
+      <p>O esporte nunca foi uma fase na vida de Ednaldo Moura; sempre foi o seu motor principal.</p>
+      <p>Dos 14 aos 20 anos, Capoeira. Depois, a Corrida Internacional de São Silvestre e 5 ou 6 participações na Prova Pedestre Tiradentes, em Maringá.</p>
+      <p>Aos 52 anos, quando o senso comum sugere o repouso, ele escolheu os tatames — e não parou mais.</p>
+    </div>
+  </div>
+</div>
+
+<!-- PÁGINA 4: AUTORIDADE -->
+<div class="page bg-marinho text-white flex flex-col justify-center">
+  <h2 class="text-3xl font-bold text-ouro mb-8">A Autoridade do Mestre</h2>
+  <div class="space-y-6 text-xl leading-relaxed max-w-2xl">
+    <p>No Jiu-Jitsu brasileiro, a faixa preta não é o fim da linha, mas o começo da verdadeira maestria.</p>
+    <p class="text-3xl font-bold text-ouro">Faixa Preta 4º Grau</p>
+    <p class="text-base text-slate-300">São necessários no mínimo 14 anos de atividade contínua como faixa preta pela CBJJ para atingir esse grau — alcançado por uma fração pequena dos praticantes de artes marciais no Brasil.</p>
+  </div>
+</div>
+
+<!-- PÁGINA 5: CHANCELA -->
+<div class="page flex flex-col justify-center">
+  <h2 class="text-3xl font-bold text-marinho mb-8 border-b-4 border-ouro pb-3">A Chancela Oficial</h2>
+  <div class="space-y-6 text-lg leading-relaxed max-w-2xl">
+    <p>O impacto do Mestre Moura não se limitou aos ginásios de luta. Por levar o nome de Maringá aos pódios e ser exemplo de saúde para as novas gerações, recebeu um dos maiores reconhecimentos públicos que um cidadão pode obter.</p>
+    <div class="bg-slate-50 border-l-4 border-ouro p-6 rounded">
+      <p class="font-bold text-marinho text-xl mb-1">Comenda da Comunidade</p>
+      <p class="font-bold text-marinho text-xl">Brasão da Cidade</p>
+      <p class="text-sm text-slate-500 mt-2">Concedidos pela Câmara Municipal de Maringá</p>
+    </div>
+  </div>
+</div>
+
+<!-- PÁGINA 6: ALCANCE -->
+<div class="page flex flex-col justify-center">
+  <h2 class="text-3xl font-bold text-marinho mb-10 border-b-4 border-ouro pb-3">O Alcance do Legado Digital</h2>
+  <div class="grid grid-cols-3 gap-6 text-center mb-10">
+    <div class="bg-marinho text-white rounded-xl p-6">
+      <p class="text-4xl font-extrabold text-ouro">21.8k</p>
+      <p class="text-sm mt-2">Seguidores no Instagram</p>
+    </div>
+    <div class="bg-marinho text-white rounded-xl p-6">
+      <p class="text-4xl font-extrabold text-ouro">6.1k</p>
+      <p class="text-sm mt-2">Publicações ativas</p>
+    </div>
+    <div class="bg-marinho text-white rounded-xl p-6">
+      <p class="text-4xl font-extrabold text-ouro">2x</p>
+      <p class="text-sm mt-2">Aulas Kids por semana</p>
+    </div>
+  </div>
+  <p class="text-lg leading-relaxed max-w-2xl">Às terças e quintas, 18h30, o Mestre lidera as turmas de Aulas Kids, conectando-se diretamente com famílias de Maringá que buscam educação e valores através do esporte.</p>
+</div>
+
+<!-- PÁGINA 7: MISSÃO -->
+<div class="page bg-marinho text-white flex flex-col justify-center">
+  <h2 class="text-3xl font-bold text-ouro mb-8">A Missão: Campeonato Master do Rio</h2>
+  <p class="text-xl leading-relaxed max-w-2xl mb-6">Neste momento, o Mestre Moura corre o risco de interromper suas participações em competições oficiais devido aos custos de viagem, inscrição e logística.</p>
+  <p class="text-2xl font-semibold text-ouro max-w-2xl">Uma lenda viva do nosso esporte não pode parar por falta de apoio.</p>
+</div>
+
+<!-- PÁGINA 8: ORÇAMENTO -->
+<div class="page flex flex-col justify-center">
+  <h2 class="text-3xl font-bold text-marinho mb-8 border-b-4 border-ouro pb-3">O Orçamento Transparente</h2>
+  <table class="w-full text-lg mb-6">
+    <tbody class="divide-y divide-slate-200">
+      <tr><td class="py-3">Inscrições oficiais (CBJJ/IBJJF)</td><td class="py-3 text-right font-semibold">R$ 500,00</td></tr>
+      <tr><td class="py-3">Passagens (ida e volta)</td><td class="py-3 text-right font-semibold">R$ 2.200,00</td></tr>
+      <tr><td class="py-3">Hospedagem</td><td class="py-3 text-right font-semibold">R$ 1.500,00</td></tr>
+      <tr><td class="py-3">Alimentação</td><td class="py-3 text-right font-semibold">R$ 1.000,00</td></tr>
+      <tr><td class="py-3">Transporte local</td><td class="py-3 text-right font-semibold">R$ 800,00</td></tr>
+    </tbody>
+    <tfoot>
+      <tr class="border-t-4 border-ouro"><td class="py-4 text-xl font-bold text-marinho">Total da missão</td><td class="py-4 text-xl font-bold text-marinho text-right">R$ 6.000,00</td></tr>
+    </tfoot>
+  </table>
+  <p class="text-base text-slate-600">Para viabilizar esse valor sem sobrecarregar ninguém, dividimos essa meta entre um grupo pequeno de apoiadores.</p>
+</div>
+
+<!-- PÁGINA 9: CONVITE -->
+<div class="page flex flex-col justify-center">
+  <h2 class="text-3xl font-bold text-marinho mb-8 border-b-4 border-ouro pb-3">O Convite: Círculo de Apoio</h2>
+  <div class="space-y-4 text-lg leading-relaxed max-w-2xl">
+    <p>Este projeto está nascendo agora, de forma direta e pessoal, antes de qualquer estrutura formal.</p>
+    <p>Estamos convidando um grupo pequeno e escolhido de pessoas e empresas de confiança para fazer parte do início desta história.</p>
+    <p class="text-2xl font-bold text-ouro">Contribuição pessoal de R$ 400,00</p>
+    <p>Por enquanto, essa colaboração acontece de forma simples — sem burocracia, sem contrato.</p>
+  </div>
+</div>
+
+<!-- PÁGINA 10: CONTRAPARTIDAS -->
+<div class="page flex flex-col justify-center">
+  <h2 class="text-3xl font-bold text-marinho mb-8 border-b-4 border-ouro pb-3">O Que Você Leva Para Casa</h2>
+  <ul class="space-y-5 text-lg">
+    <li class="flex gap-4"><span class="text-ouro font-bold">✓</span> Seu nome no kimono da surpresa que o Mestre Moura vai vestir no Rio</li>
+    <li class="flex gap-4"><span class="text-ouro font-bold">✓</span> Presença na página oficial do projeto, com link para o seu negócio</li>
+    <li class="flex gap-4"><span class="text-ouro font-bold">✓</span> Reconhecimento nos posts oficiais do projeto</li>
+    <li class="flex gap-4"><span class="text-ouro font-bold">✓</span> A satisfação de ajudar a escrever essa história antes de qualquer um</li>
+  </ul>
+  <p class="text-sm text-slate-500 italic mt-8">Observação: neste momento inicial, a contribuição é tratada como colaboração pessoal e não gera nota fiscal.</p>
+</div>
+
+<!-- PÁGINA 11: COMO PARTICIPAR -->
+<div class="page bg-marinho text-white flex flex-col items-center justify-center text-center">
+  <h2 class="text-3xl font-bold text-ouro mb-6">Isso ainda é segredo</h2>
+  <p class="text-lg leading-relaxed max-w-xl mb-10">O Mestre Moura não sabe que este projeto existe. Pedimos discrição: se você topar entrar, essa conversa fica só entre nós até a hora da surpresa.</p>
+  <div class="space-y-2 text-lg">
+    <p><strong class="text-ouro">WhatsApp:</strong> (44) 99847-6505</p>
+    <p><strong class="text-ouro">Site:</strong> seumoura.jpxdigital.com.br</p>
+  </div>
+</div>
+
+</body>
+</html>
